@@ -5,7 +5,7 @@
         "maxValue": "120",
         "valueType": "http://www.w3.org/2001/XMLSchema#float",
         "label": "age",
-        "description": "are at scan",
+        "description": "age at scan",
         "source_variable": "age",
         "associatedWith": "NIDM",
         "isAbout": [
