@@ -1,0 +1,50 @@
+{
+    "age": {
+        "unitCode": "years",
+        "minValue": "0",
+        "maxValue": "120",
+        "valueType": "http://www.w3.org/2001/XMLSchema#float",
+        "label": "age",
+        "description": "are at scan",
+        "source_variable": "age",
+        "associatedWith": "NIDM",
+        "isAbout": [
+            {
+                "@id": "http://uri.interlex.org/ilx_0100400",
+                "label": "Age"
+            }
+        ]
+    },
+    "sex": {
+        "unitCode": "",
+        "minValue": "",
+        "maxValue": "",
+        "valueType": "http://www.w3.org/2001/XMLSchema#string",
+        "label": "sex",
+        "description": "sex of the subject",
+        "source_variable": "sex",
+        "associatedWith": "NIDM",
+        "isAbout": [
+            {
+                "@id": "http://uri.interlex.org/ilx_0738439",
+                "label": "SEX"
+            }
+        ]
+    },
+    "diagnosis": {
+        "unitCode": "",
+        "minValue": "",
+        "maxValue": "",
+        "valueType": "http://www.w3.org/2001/XMLSchema#string",
+        "label": "diagnosis",
+        "description": "diagnosis of the subject",
+        "source_variable": "diagnosis",
+        "associatedWith": "NIDM",
+        "isAbout": [
+            {
+                "@id": "http://uri.interlex.org/ilx_0778153",
+                "label": "Diagnosis"
+            }
+        ]
+    }
+}
